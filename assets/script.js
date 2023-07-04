@@ -39,7 +39,7 @@ const numberElArray = [
 let valueStrInMemory = null;
 let operatorInMemory = null;
 
-const getValueAsStr = () => valueEl.textContent.split(",").join("")
+const getValueAsStr = () => valueEl.textContent.split(',').join('')
 
 const getValueAsNum = () => {
   return parseFloat(getValueAsStr())
